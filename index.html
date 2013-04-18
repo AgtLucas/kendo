@@ -8,24 +8,290 @@
 	<link rel="dns-prefetch" href="//www.google-analytics.com">
 	<link rel="dns-prefetch" href="//themes.googleusercontent.com">
 
+	<link rel="stylesheet" href="css/style.css">
+
 	<title>jQuery Avançado + Kendo UI</title>
 </head>
 <body>
 
-	<div class="step slide" data-x="-1000" data-y="-1500">
-		<h1>jQuery</h1>
-		<h1>Kendo</h1>
-		<h1>JS não obstrutivo</h1>
-	</div>
-	
-	<div class="step slide" data-x="0" data-y="-1500">
-		<h2>Equipe:</h2>
-		<ul>
-			<li>Fabricio</li>
-			<li>Lucas</li>
-			<li>Rubens</li>
-		</ul>
-	</div>
+	<div id="impress">
+			<div class="no-support-message">
+				Your browser doesn't support impress.js.  Try Chrome or Safari.
+			</div>
+			
+			<div class="step" data-x="0" data-y="0" data-z="0">
+				<h1>jQuery</h1>
+				<h1>+</h1>
+				<h1>Kendo UI</h1>
+			</div>
+			
+	<!-- Up & down on data-z after 90 degree data-rotate-x. Above title card. -->
+			
+			<div class="step" data-x="0" data-y="0" data-z="-500" data-rotate-x="90" data-scale="0.5">
+				<!-- <span class="hi">Howdy!</span><br />
+				<span class="name">My name is <a class="textlink" href="http://jasoncosper.com/">Jason Cosper</a>.</span> -->
+				<h2>Equipe</h2>
+				<ul>
+					<li>Fabricio</li>
+					<li>Lucas</li>
+					<li>Rubens</li>
+				</ul>
+			</div>
+			
+			<div class="step" data-x="0" data-y="0" data-z="-1000" data-rotate-x="90" data-scale="0.5">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, error officiis dolor sunt dolorum harum explicabo. Reprehenderit, eligendi, eum, dolor id magni mollitia quae assumenda rem quas soluta temporibus alias.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente enim architecto nesciunt tenetur corporis dolorum eum. Explicabo, aliquam, cum, voluptate, odit fuga totam animi velit labore molestias ducimus reiciendis molestiae.</p>
+			</div>
 
-</body>
+	<!-- Below title card now with a 90 degree data-rotate-z. Up & down on data-x.  -->
+			
+			<div class="step" data-x="0" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="90" data-scale="0.5">
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ex similique quis sunt quam iure porro fugit accusamus quibusdam illum!</h3>
+			</div>
+
+			<div class="step" data-x="-500" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="90" data-scale="0.5">
+				<span class="bigger">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, nam, ut!</span>
+			</div>
+
+			<div class="step" data-x="-1000" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="90" data-scale="0.5">
+				<span class="bigger">Example.</span>
+				<script src="https://gist.github.com/AgtLucas/5077812.js"></script>
+			</div>
+
+			<div class="step" data-x="-1500" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="90" data-scale="0.5">
+				<span class="bigger">So let's get started...</span>
+			</div>
+
+	<!-- Going L to R with data-x after reversing data-rotate-z. -->
+
+			<div class="step" data-x="-1500" data-y="500" data-z="1000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<span class="sectiontitle">jQuery</span>
+				<span>Avançado</span>
+			</div>
+
+	<!-- Have to do 750 rather than 500 on this next slide so the text doesn't bleed thru. -->
+
+			<div class="step" data-x="-750" data-y="500" data-z="1000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<span class="bigger">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quo officiis ex nam non ipsa voluptas a vitae quaerat eius libero ut minus modi nostrum laboriosam doloribus laudantium? Fuga, tenetur.</span>
+			</div>
+
+			<div class="step" data-x="-750" data-y="500" data-z="1500" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<h2>Lorem ipsum dolor sit amet.</h2>
+				<ul>
+					<li>Lorem ipsum dolor sit.</li>
+					<li>Lorem ipsum dolor.</li>
+					<li>Lorem ipsum.</li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="-750" data-y="500" data-z="2000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<span class="bigger">We'll go ahead & begin with caching...</span>
+			</div>
+
+			<div class="step" data-x="0" data-y="500" data-z="1000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<div class="centeredimg"><img src="images/always_be_closing.jpg" /></div>
+				<span class="imgcaption">ALWAYS BE CACHING</span>
+			</div>
+
+			<div class="step" data-x="0" data-y="500" data-z="1500" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<h2>Page Caching Plugins</h2>
+				<ul>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/wp-super-cache/">WP Super Cache</a>  <img src="images/wordpress.png" /></li>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/w3-total-cache/">W3 Total Cache</a>  <img src="images/wordpress.png" /></li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="0" data-y="500" data-z="2000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<div class="centeredimg"><img src="images/wpsc_vs_w3tc.png" /></div>
+				<span class="imgcaption">WP Super Cache vs. W3 Total Cache</span>
+			</div>
+
+			<div class="step" data-x="0" data-y="500" data-z="2500" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<h2>Browser Caching</h2>
+				<p>I've <a class="textlink" href="https://gist.github.com/1842173">adapted a set of .htaccess rules</a> from <a class="textlink" href="http://html5boilerplate.com/">HTML5 Boilerplate</a> for this.<p>
+				<p>There's no need to reinvent the wheel, right?</p>
+			</div>
+
+			<div class="step" data-x="0" data-y="500" data-z="3000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<span class="bigger">Now, let's tighten up those images...</span>
+			</div>
+
+			<div class="step" data-x="750" data-y="500" data-z="1000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<div class="centeredimg"><img src="images/photoshop.png" /></div>
+				<span class="imgcaption">Fun with(out) Photoshop</span>
+			</div>
+
+			<div class="step" data-x="750" data-y="500" data-z="1500" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<h2>Compress Your Images Locally</h2>
+				<ul>
+					<li><a class="textlink" href="http://imageoptim.pornel.net/">ImageOptim</a> <img src="images/mac.png" /></li>
+					<li><a class="textlink" href="http://luci.criosweb.ro/riot/">Radical Image Optimization Tool</a> <img src="images/win.png" /></li>
+					<li><a class="textlink" href="http://www.smushit.com/ysmush.it/">Smush.it</a></li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="750" data-y="500" data-z="2000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<h2>Compress Images on Your Site</h2>
+				<ul>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/wp-smushit/">WP Smush.it</a> <img src="images/wordpress.png" /></li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="750" data-y="500" data-z="2500" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<h2>Load Images As They're Needed</h2>
+				<ul>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/lazy-load/">Lazy Load</a> <img src="images/wordpress.png" /></li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="750" data-y="500" data-z="3000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<span class="bigger">Finally, let's cut the fat on your CSS & JavaScript...</span>
+			</div>
+
+			<div class="step" data-x="1500" data-y="500" data-z="1000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<div class="centeredimg"><img src="images/zip_it.jpg" /></div>
+				<span class="imgcaption">gzip it!</span>
+			</div>
+
+			<div class="step" data-x="1500" data-y="500" data-z="1500" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<h2>Compressing Your CSS and JavaScript</h2>
+				<ul>
+					<li><a class="textlink" href="http://omninoggin.com/wordpress-plugins/wp-minify-wordpress-plugin/">WP Minify</a> <img src="images/wordpress.png" /></li>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/w3-total-cache/">W3 Total Cache</a> <img src="images/wordpress.png" /></li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="2250" data-y="500" data-z="1000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<span class="bigger">Okay, that covers performance.</span>
+			</div>
+
+			<div class="step" data-x="2250" data-y="500" data-z="1500" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<span class="bigger">Now, let's focus on security.</span>
+			</div>
+
+			<div class="step" data-x="2250" data-y="500" data-z="2000" data-rotate-x="90" data-rotate-z="0" data-scale="0.5">
+				<span class="bigger">But first, we'll cleanse our palate with <a class="textlink" href="http://player.vimeo.com/video/1063136?portrait=0">a video</a>.</span>
+			</div>
+
+			<div class="step" data-x="3000" data-y="500" data-z="2000" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="sectiontitle">Security</span>
+			</div>
+
+			<div class="step" data-x="3000" data-y="500" data-z="1250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<div class="centeredimg"><img src="images/locked_down.jpg" /></div>
+				<span class="imgcaption">How can we lock WordPress down?</span>
+			</div>
+
+			<div class="step" data-x="3500" data-y="500" data-z="1250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<h2>Methods for Securing WordPress</h2>
+				<ul>
+					<li>Block attacks at the server level</li>
+					<li>Protect your admin area</li>
+					<li>Staying on top of updates</li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="4000" data-y="500" data-z="1250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">How about we start with blocking attacks at the server level?</span>
+			</div>
+
+			<div class="step" data-x="2250" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<div class="centeredimg"><img src="images/block.gif" width="300" height="408" /></div>
+				<span class="imgcaption">The ol' bob & weave</span>
+			</div>
+
+			<div class="step" data-x="3000" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">Who's already using a plugin?</span>
+			</div>
+
+			<div class="step" data-x="3500" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">Here's why that's not such a great idea...</span>
+			</div>
+
+			<div class="step" data-x="4000" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<h2>Blocking Without Plugins</h2>
+				<ul>
+					<li><a class="textlink" href="http://perishablepress.com/5g-blacklist-2012/">5G Blacklist</a></li>
+					<li><a class="textlink" href="http://www.cloudflare.com/features-security/">CloudFlare</a></li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="4500" data-y="500" data-z="500" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">Okay. Now let's chat about insulating your admin area...</span>
+			</div>
+
+			<div class="step" data-x="2250" data-y="500" data-z="-250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<div class="centeredimg"><img src="images/wu_tang.jpg" /></div>
+				<span class="imgcaption">Protect ya neck, kid</span>
+			</div>
+
+			<div class="step" data-x="3000" data-y="500" data-z="-250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">So, we want to keep unauthorized people from getting into your admin area.</span>
+			</div>
+
+			<div class="step" data-x="3500" data-y="500" data-z="-250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">But we also want to not be annoying to the site's contributors, right?</span>
+			</div>
+
+			<div class="step" data-x="4000" data-y="500" data-z="-250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<h2>The Programable Bouncers</h2>
+				<ul>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/login-lockdown/">Login Lockdown</a> <img src="images/wordpress.png" /></li>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/auto-expire-passwords/">Auto Expire Passwords</a> <img src="images/wordpress.png" /></li>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/google-authenticator/">Google Authenticator</a> <img src="images/wordpress.png" /></li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="4500" data-y="500" data-z="-250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">Note: Enabling all of these at once can make logging in an ordeal.</span>
+			</div>
+
+			<div class="step" data-x="5000" data-y="500" data-z="-250" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">Let's finish this out with a conversation about updates...</span>
+			</div>
+
+			<div class="step" data-x="2250" data-y="500" data-z="-1000" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<div class="centeredimg"><img src="images/weekend_update.jpg" /></div>
+				<span class="imgcaption">Updating: Not just for weekends anymore</span>
+			</div>
+
+			<div class="step" data-x="3000" data-y="500" data-z="-1000" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">According to <a class="textlink" href="http://wpsecure.net/">WPsecure</a>, there were 186 exploits for WordPress and its plugins in 2011.</span>
+			</div>
+
+			<div class="step" data-x="3500" data-y="500" data-z="-1000" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">"But it's such a pain to stay on top of plugin updates!"</span>
+			</div>
+
+			<div class="step" data-x="4000" data-y="500" data-z="-1000" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">You know what's an even bigger pain? Cleaning up a hacked site.</span>
+			</div>
+
+			<div class="step" data-x="4500" data-y="500" data-z="-1000" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">Getting an email reminder though? That's no pain at all.</span>
+			</div>
+
+			<div class="step" data-x="5000" data-y="500" data-z="-1000" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<h2>Update Reminders</h2>
+				<ul>
+					<li><a class="textlink" href="http://wordpress.org/extend/plugins/wp-updates-notifier/">WP Updates Notifier</a> <img src="images/wordpress.png" /></li>
+				</ul>
+			</div>
+
+			<div class="step" data-x="2250" data-y="500" data-z="-1750" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">And that covers security.</span>
+			</div>
+
+			<div class="step" data-x="3000" data-y="500" data-z="-1750" data-rotate-x="90" data-rotate-z="-90" data-scale="0.5">
+				<span class="bigger">Questions?</span>
+			</div>
+
+			<div class="step" data-x="3000" data-y="500" data-z="-2500" data-rotate-x="90" data-rotate-z="-180" data-scale="0.5">
+				<div class="centeredimg"><img src="images/jsr.jpg" /></div>
+				<span class="imgcaption">That's it! Thanks for hanging out.</span>
+			</div>
+
+		</div>
+		<script src="js/impress.js"></script>
+	</body>
 </html>
