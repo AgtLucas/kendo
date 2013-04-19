@@ -78,17 +78,18 @@ a.textlink {
   font-weight:600; 
 }
 ul { 
-  width:480px; 
+  width:390px; 
   margin-right:auto; 
   margin-left:auto; 
 }
 ul li { 
   text-align:left; 
-  font-size:18px; 
+  // font-size:18px; 
 }
 p { 
-  width:60em; 
+  width: 900px; 
   margin-right:auto; 
   margin-left:auto; 
-  text-align:left; 
+  text-align:left;
+  line-height: 1.4;
 }
