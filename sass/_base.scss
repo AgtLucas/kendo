@@ -41,6 +41,20 @@ a.textlink {
   text-align: center;
 }
 
+.title {
+  font-size: 100px;
+  margin-bottom: 60px;
+}
+
+.team {
+  font-size: 30px;
+  list-style: none;
+  li {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+
 .hi { 
   font-size:140px; 
   font-weight:600; 
@@ -49,8 +63,8 @@ a.textlink {
   font-size:18px; 
 }
 .bigger { 
-  font-size:18px; 
-  font-weight:600;
+  font-size:25px; 
+  font-weight:200;
 }
 .sectiontitle { 
   font-size:150px; 
@@ -73,7 +87,7 @@ ul li {
   font-size:18px; 
 }
 p { 
-  width:480px; 
+  width:60em; 
   margin-right:auto; 
   margin-left:auto; 
   text-align:left; 
